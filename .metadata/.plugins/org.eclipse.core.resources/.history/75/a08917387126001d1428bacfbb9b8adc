@@ -1,0 +1,6 @@
+package testNG;
+
+public class Parameterization4 extends Parameterization1{
+
+	
+}

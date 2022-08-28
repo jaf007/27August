@@ -1,0 +1,16 @@
+package testNG;
+
+import org.openqa.selenium.By;
+import org.testng.annotations.Test;
+
+public class Parameterization4 extends Parameterization1{
+
+	@Test
+	public void clickonsigin() {
+		driver.get("https://www.rediff.com/");
+		driver.findElement(By.className("signin")).click();
+		System.out.println("The title of the login page is :"+ driver.getTitle());
+	}
+	
+	
+}
